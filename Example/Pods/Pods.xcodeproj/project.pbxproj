@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05F9107B0FB5E672D0B2FA1E11C93E27 /* Pods-NSTimerExt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F339478FCCDF4FA51D0440B9F367728F /* Pods-NSTimerExt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		088E486229D2FFEB00BD03E1 /* NSTimerExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E486029D2FFEB00BD03E1 /* NSTimerExt.h */; };
-		088E486329D2FFEB00BD03E1 /* NSTimerExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E486129D2FFEB00BD03E1 /* NSTimerExt.m */; };
+		088E486629D307D800BD03E1 /* NSTimerExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E486429D307D800BD03E1 /* NSTimerExt.m */; };
+		088E486729D307D800BD03E1 /* NSTimerExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E486529D307D800BD03E1 /* NSTimerExt.h */; };
 		13AFEA42085B1B7D856172E2A5B7BA5B /* Pods-NSTimerExt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3E63C0711402F22C851B0DA55ECC3 /* Pods-NSTimerExt_Example-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20E10180B75725554441672FFA6581A5 /* Pods-NSTimerExt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9BBB66607278D09E2A5A55BCAFC591 /* Pods-NSTimerExt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,8 +67,8 @@
 
 /* Begin PBXFileReference section */
 		03F78E34DDD94722CC65A731A7AC073B /* Pods-NSTimerExt_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSTimerExt_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		088E486029D2FFEB00BD03E1 /* NSTimerExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerExt.h; sourceTree = "<group>"; };
-		088E486129D2FFEB00BD03E1 /* NSTimerExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerExt.m; sourceTree = "<group>"; };
+		088E486429D307D800BD03E1 /* NSTimerExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTimerExt.m; path = NSTimerExt/Classes/NSTimerExt.m; sourceTree = "<group>"; };
+		088E486529D307D800BD03E1 /* NSTimerExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSTimerExt.h; path = NSTimerExt/Classes/NSTimerExt.h; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -171,8 +171,8 @@
 		212ECA17483E356232D382D657417166 /* NSTimerExt */ = {
 			isa = PBXGroup;
 			children = (
-				088E486029D2FFEB00BD03E1 /* NSTimerExt.h */,
-				088E486129D2FFEB00BD03E1 /* NSTimerExt.m */,
+				088E486529D307D800BD03E1 /* NSTimerExt.h */,
+				088E486429D307D800BD03E1 /* NSTimerExt.m */,
 				7AF5DF2D940ECF8A219F3E11C3EA3E11 /* Pod */,
 				915BB4CD1CBE13FF0FA3166E084EDE5E /* Support Files */,
 			);
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6673560C3422597551D233A1830826E7 /* NSTimerExt-umbrella.h in Headers */,
-				088E486229D2FFEB00BD03E1 /* NSTimerExt.h in Headers */,
+				088E486729D307D800BD03E1 /* NSTimerExt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,8 +555,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088E486629D307D800BD03E1 /* NSTimerExt.m in Sources */,
 				C2F78574BC5B43AE9AC3C8D0A44741C3 /* NSTimerExt-dummy.m in Sources */,
-				088E486329D2FFEB00BD03E1 /* NSTimerExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
