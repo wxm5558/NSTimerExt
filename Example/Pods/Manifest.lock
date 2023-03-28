@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NSTimerExt (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NSTimerExt (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  NSTimerExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NSTimerExt: a2875fd22dd3b13334ca3cb39243f36d43c8aceb
+
+PODFILE CHECKSUM: e4e2d9b756de7654d76ac0d7ae40a2603e360499
+
+COCOAPODS: 1.12.0

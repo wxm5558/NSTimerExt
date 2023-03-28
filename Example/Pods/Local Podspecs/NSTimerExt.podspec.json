@@ -1,0 +1,22 @@
+{
+  "name": "NSTimerExt",
+  "version": "0.1.0",
+  "summary": "A short description of NSTimerExt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wxm5558/NSTimerExt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wxm5558": "wxm5558@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wxm5558/NSTimerExt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NSTimerExt/Classes/**/*"
+}
