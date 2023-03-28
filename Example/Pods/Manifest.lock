@@ -1,0 +1,16 @@
+PODS:
+  - NSTimerExt (0.1.0)
+
+DEPENDENCIES:
+  - NSTimerExt (from `../`)
+
+EXTERNAL SOURCES:
+  NSTimerExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSTimerExt: a2875fd22dd3b13334ca3cb39243f36d43c8aceb
+
+PODFILE CHECKSUM: 26623c519849e69434f4a2c90b2a237101ea2af5
+
+COCOAPODS: 1.12.0

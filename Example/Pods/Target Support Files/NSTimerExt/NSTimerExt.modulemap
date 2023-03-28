@@ -1,0 +1,6 @@
+framework module NSTimerExt {
+  umbrella header "NSTimerExt-umbrella.h"
+
+  export *
+  module * { export * }
+}
