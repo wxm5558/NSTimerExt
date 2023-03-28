@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NSTimerExt_Example' do
+  pod 'NSTimerExt', :path => '../'
+
+  target 'NSTimerExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
